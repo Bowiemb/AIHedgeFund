@@ -240,23 +240,23 @@ See [docs/deployment.md](./docs/deployment.md) for detailed deployment instructi
 - [x] FastAPI backend with core endpoints
 - [x] OpenAPI documentation
 
-### Milestone 2: SEC EDGAR Ingestion (In Progress)
-- [ ] SEC EDGAR client with rate limiting
-- [ ] Ingestion workers (companies, filings)
-- [ ] XBRL parser for 10-K/10-Q
-- [ ] 13F holdings parser
-- [ ] Backfill last 10 years
+### Milestone 2: SEC EDGAR Ingestion ✅
+- [x] SEC EDGAR client with rate limiting
+- [x] Ingestion workers (companies, filings)
+- [x] XBRL parser for 10-K/10-Q
+- [x] 13F holdings parser
+- [x] Backfill scripts for historical data
 
-### Milestone 3: Public API
-- [ ] Authentication (JWT + API keys)
-- [ ] Rate limiting & usage metering
-- [ ] Stripe integration
-- [ ] API documentation site
-- [ ] Example notebooks
+### Milestone 3: Public API ✅
+- [x] Authentication (JWT + API keys)
+- [x] Rate limiting & usage metering
+- [x] Auth middleware with bcrypt
+- [x] API documentation (OpenAPI)
+- [ ] Stripe integration (in progress)
 
-### Milestone 4: Web Frontend
-- [ ] Landing page
-- [ ] Pricing & subscription flows
+### Milestone 4: Web Frontend (In Progress)
+- [x] Landing page
+- [x] Pricing page
 - [ ] Dataset catalog
 - [ ] API explorer
 - [ ] User dashboard
