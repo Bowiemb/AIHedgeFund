@@ -252,14 +252,15 @@ See [docs/deployment.md](./docs/deployment.md) for detailed deployment instructi
 - [x] Rate limiting & usage metering
 - [x] Auth middleware with bcrypt
 - [x] API documentation (OpenAPI)
-- [ ] Stripe integration (in progress)
+- [x] Stripe integration (checkout, webhooks, portal)
 
-### Milestone 4: Web Frontend (In Progress)
+### Milestone 4: Web Frontend ✅
 - [x] Landing page
 - [x] Pricing page
-- [ ] Dataset catalog
-- [ ] API explorer
-- [ ] User dashboard
+- [x] Dataset catalog
+- [x] Login & signup pages
+- [x] User dashboard with API keys
+- [x] Stripe billing integration
 
 ### Milestone 5: AI Hedge Fund Dashboard
 - [ ] Integrate virattt/ai-hedge-fund
