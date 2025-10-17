@@ -1,0 +1,78 @@
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Database
+sqlalchemy[asyncio]==2.0.25
+alembic==1.13.1
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+
+# Redis & Queue
+redis==5.0.1
+rq==1.16.0
+rq-scheduler==0.13.1
+
+# HTTP & API
+httpx==0.26.0
+aiohttp==3.9.1
+requests==2.31.0
+
+# Auth & Security
+pyjwt==2.8.0
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.6
+
+# Stripe
+stripe==7.11.0
+
+# AWS & S3
+boto3==1.34.28
+aioboto3==12.3.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.3
+pyarrow==14.0.2
+
+# XBRL & SEC Filings
+sec-edgar-downloader==5.0.3
+xbrl==1.2.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# IBKR
+ib-insync==0.9.86
+
+# Monitoring & Logging
+opentelemetry-api==1.22.0
+opentelemetry-sdk==1.22.0
+opentelemetry-instrumentation-fastapi==0.43b0
+python-json-logger==2.0.7
+sentry-sdk[fastapi]==1.40.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+httpx==0.26.0
+faker==22.2.0
+
+# Development Tools
+ruff==0.1.14
+black==23.12.1
+mypy==1.8.0
+ipython==8.20.0
+ipdb==0.13.13
+
+# Utilities
+python-dotenv==1.0.0
+typer==0.9.0
+pyyaml==6.0.1
+orjson==3.9.12
+pytz==2023.3
+python-dateutil==2.8.2
